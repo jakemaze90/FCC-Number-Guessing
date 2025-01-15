@@ -69,3 +69,4 @@ GUESSING_MACHINE
 # insert data from game
 INSERTED_GAME=$($PSQL "INSERT INTO games(user_id, guesses) VALUES($USER_ID, $TRIES);")
 echo "You guessed it in $TRIES tries. The secret number was $SECRET_NUMBER. Nice job!"
+
