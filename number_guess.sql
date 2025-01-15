@@ -155,6 +155,20 @@ INSERT INTO public.games VALUES (22, 25, 277);
 INSERT INTO public.games VALUES (23, 24, 955);
 INSERT INTO public.games VALUES (24, 24, 289);
 INSERT INTO public.games VALUES (25, 24, 290);
+INSERT INTO public.games VALUES (26, 26, 416);
+INSERT INTO public.games VALUES (27, 26, 740);
+INSERT INTO public.games VALUES (28, 27, 850);
+INSERT INTO public.games VALUES (29, 27, 337);
+INSERT INTO public.games VALUES (30, 26, 347);
+INSERT INTO public.games VALUES (31, 26, 3);
+INSERT INTO public.games VALUES (32, 26, 963);
+INSERT INTO public.games VALUES (33, 28, 846);
+INSERT INTO public.games VALUES (34, 28, 311);
+INSERT INTO public.games VALUES (35, 29, 366);
+INSERT INTO public.games VALUES (36, 29, 169);
+INSERT INTO public.games VALUES (37, 28, 596);
+INSERT INTO public.games VALUES (38, 28, 754);
+INSERT INTO public.games VALUES (39, 28, 304);
 
 
 --
@@ -174,20 +188,24 @@ INSERT INTO public.users VALUES (22, 'user_1736979523353');
 INSERT INTO public.users VALUES (23, 'user_1736979523352');
 INSERT INTO public.users VALUES (24, 'user_1736979651946');
 INSERT INTO public.users VALUES (25, 'user_1736979651945');
+INSERT INTO public.users VALUES (26, 'user_1736981307652');
+INSERT INTO public.users VALUES (27, 'user_1736981307651');
+INSERT INTO public.users VALUES (28, 'user_1736981498944');
+INSERT INTO public.users VALUES (29, 'user_1736981498943');
 
 
 --
 -- Name: games_game_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.games_game_id_seq', 25, true);
+SELECT pg_catalog.setval('public.games_game_id_seq', 39, true);
 
 
 --
 -- Name: users_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.users_user_id_seq', 25, true);
+SELECT pg_catalog.setval('public.users_user_id_seq', 29, true);
 
 
 --
