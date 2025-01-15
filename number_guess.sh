@@ -27,7 +27,7 @@ fi
 
 # grab user_id
 USER_ID=$($PSQL "SELECT user_id FROM users WHERE username = '$USERNAME'")
-echo $USER_ID
+
 
 # create message for guess
 TRIES=1
